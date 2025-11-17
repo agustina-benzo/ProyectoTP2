@@ -1,0 +1,142 @@
+body{
+    text-align: center;
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.529);
+    a{
+        padding: 1rem; 
+        margin: 10px 30px;
+        margin-bottom: 4%;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        background-color: rgb(255, 202, 133);
+        border-radius: 10px 10px;
+        text-decoration: none;
+        font-family: 'titulo';
+        font-size: 20px;
+        letter-spacing: 1.5px;
+    }
+    a:hover{
+        color: rgb(255, 202, 133);
+        background-color: rgb(0, 0, 0);
+        border: solid;
+    }
+.logo{
+    
+}
+    
+}
+.the-walking-dead{
+    background-image: url(./imagenes/fondo-detallado-grunge.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000000;
+}
+.sobre-la-serie{
+    background-image: url(./imagenes/fondo-sobre-la-serie.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000000;
+}
+.elenco-y-personajes{
+    background-image: url(./imagenes/fondo-elenco-y-personajes.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000000;
+}
+.temporadas-y-episodios{
+    background-image: url(./imagenes/fondo-temporadas-y-episodios.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000000;
+}
+.eventos-y-curiosidades{
+    background-image: url(./imagenes/fondo-eventos-y-curiosidades.jpg);
+    background-size: cover;
+    color: rgb(255, 202, 133);
+    font-size: 7rem;
+    padding: 8.5%;
+    margin: 0%;
+    font-family:'titulo';
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #000000;
+}
+h2,h3,h4{
+     color:rgb(255, 202, 133);
+     font-family: 'parrafos';
+}
+a{
+    margin-inline: 3%
+}
+p{
+    font-family: 'parrafos';
+    margin: auto;
+    margin-bottom: 1.5%;
+}
+img{
+    margin: 3%;
+}
+.personajes{
+    figure{
+        display: flex;
+        align-items: flex-start;
+        margin-left: 10%;
+        
+    }
+    div{
+        margin: 0 0 10px 0;
+        text-align: left;
+        width: 100%;
+    }
+    h3{
+        text-align: left;
+        margin-left: 10%;
+        margin-bottom: 0;
+    }
+}
+.creadores{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    margin: 2%;
+    div{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       width: 30%;
+    }
+}
+
+@font-face {
+    font-family:'titulo';
+    src: url(./shredded/shredded.ttf);
+}
+@font-face {
+    font-family: 'parrafos';
+    src: url(./Stack_Sans_Notch/StackSansNotch-VariableFont_wght.ttf);
+}
+
